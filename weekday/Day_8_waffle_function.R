@@ -46,14 +46,15 @@ waf <- function(val, n_row = NULL, legend, main = NULL) {
   par(op)
 }
 
-jpeg('img/russian_parliament.jpg', width = 360, height = 360)
+#test
+#jpeg('weekday//img//russian_parliament.jpg', width = 360, height = 360)
 waf(c(343, 42, 39, 23, 2, 4), n_row = 15, 
     legend = c('United Russia', 'Communist Party', 'Liberal-democratic', 'Just Russia', 
                'Independent', 'Vacant'),
     main = 'Russian parliament')
-dev.off()
-jpeg('img/usa_congress.jpg', width = 360, height = 360)
+#dev.off()
+#jpeg('weekday//img//usa_congress.jpg', width = 360, height = 360)
 waf(c(51, 47, 2), n_row = 13, 
     legend = c('Republican', 'Democratic', 'Independent'),
     main = 'United States Congress')
-dev.off()
+#dev.off()
